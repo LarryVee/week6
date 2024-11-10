@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #0000ff;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: center;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+}
+.navbar .logo {
+  margin-left: 150px;
+}
+.navbar .nav-lists {
+  display: flex;
+  list-style: none;
+  color: #f4f4f4;
+  gap: 20px;
+  text-decoration: none;
+  margin-left: -50px;
+}
+.navbar .nav-lists .nav-list a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+.navbar .nav_link_btn {
+  color: #f4f4f4;
+  text-decoration: none;
+  display: flex;
+  background-color: #ff6f61;
+  width: 100px;
+  height: 30px;
+  padding-top: 5px;
+  padding-left: 18px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.page-writer {
+  color: #0000ff;
+  position: absolute;
+  text-align: center;
+  right: 50px;
+  left: 5px;
+  top: 140px;
+  font-weight: light;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px black;
+}
+
+.my-work {
+  position: absolute;
+  text-align: center;
+  background-color: #ff6f61;
+  color: #f4f4f4;
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  text-decoration: none;
+  left: 640px;
+  top: 300px;
+  right: 50px;
+}
+
+.skill {
+  color: #0000ff;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.skill-section {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.skill-section .skill-head {
+  margin: 20px 20px;
+  color: #0000ff;
+}
+.skill-section .skill-section-1, .skill-section .skill-section-2, .skill-section .skill-section-3 {
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 20px 20px 20px 20px;
+}
+
+.project-head {
+  margin-top: 90px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.product-section {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+.product-section .product-head {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #0000ff;
+}
+.product-section .product-section-1, .product-section .product-section-2, .product-section .product-section-3 {
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  padding: 20px 20px 20px 20px;
+}
+
+#contact {
+  background-color: white;
+  box-shadow: inset;
+  justify-items: center;
+  justify-self: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  width: 500px;
+  padding: 20px 20px;
+}
+
+.closing-tag {
+  background-color: #0000ff;
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  padding: 30px 30px;
+}
+.closing-tag .closing-links a, .closing-tag .closing-webs a {
+  list-style: none;
+  color: #f4f4f4;
+  text-decoration: none;
+  justify-content: space-between;
+  gap: 8px;
+  margin-right: 50px;
+}
+.closing-tag .closing-webs {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+.closing-tag .closing-links {
+  list-style: none;
+  text-decoration: none;
+}
+.closing-tag .closing-links a {
+  color: #f4f4f4;
+}
+.closing-tag .trade-mark {
+  color: #f4f4f4;
+  margin-top: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
