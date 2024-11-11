@@ -117,13 +117,51 @@
 
 #contact {
   background-color: white;
-  box-shadow: inset;
   justify-items: center;
+  box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.3);
   justify-self: center;
   margin-top: 150px;
   margin-bottom: 150px;
-  width: 500px;
+  width: 50%;
   padding: 20px 20px;
+}
+
+.container-contact-1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container-contact {
+  color: #0000ff;
+}
+
+.closing-tag .closing-links a, .closing-tag .closing-webs a, #your-name, #your-email, .your-message {
+  width: 500px;
+  padding: 5px 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.your-name, .your-email, .your-message {
+  color: #0000ff;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.submit-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.submit-btn {
+  background-color: #ff6f61;
+  color: #f4f4f4;
+  text-align: center;
+  width: 125px;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
 }
 
 .closing-tag {
@@ -133,7 +171,7 @@
   justify-content: space-evenly;
   padding: 30px 30px;
 }
-.closing-tag .closing-links a, .closing-tag .closing-webs a {
+.closing-tag .closing-links a, .closing-tag .closing-webs a, .closing-tag #your-name, .closing-tag #your-email, .closing-tag .your-message {
   list-style: none;
   color: #f4f4f4;
   text-decoration: none;
